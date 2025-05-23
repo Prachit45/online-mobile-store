@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Simple Navbar</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+    }
+
+    nav {
+      background-color: #333;
+      padding: 10px 20px;
+    }
+
+    .nav-container {
+      max-width: 1200px;
+      margin: auto;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+
+    .nav-logo {
+      color: white;
+      font-size: 1.5rem;
+      font-weight: bold;
+    }
+
+    .nav-links a {
+      color: white;
+      text-decoration: none;
+      margin-left: 20px;
+      font-size: 1rem;
+    }
+
+    .nav-links a:hover {
+      text-decoration: underline;
+    }
+
+    /* Optional: Center the welcome message */
+    .a1 {
+      text-align: center;
+      margin: 40px 20px;
+    }
+
+    .a1 h1 {
+      font-size: 2rem;
+      color: black;
+      padding-top:150px;
+      
+    }
+
+    .a2{
+      display: flex;
+      justify-content: center; /* horizontal center */
+      align-items: center;   
+      gap: 5px;
+    }
+
+    input[type="text"] {
+      padding: 8px;
+      margin-right: 10px;
+      border-radius: 15px;
+     color: black;
+    }
+
+    input[type="button"] {
+      padding: 8px 16px;
+      border-radius: 15px;
+      color: black;
+    }
+
+  </style>
+</head>
+<body>
+
+  <nav>
+    <div class="nav-container">
+      <div class="nav-logo">Online Mobile Gallary</div>
+      <div class="nav-links">
+        <a href="#">Home</a>
+        <a href="Products.html">Products</a>
+        <a href="About.html">About</a>
+        <a href="Contact.html">Contact</a>
+      </div>
+    </div>
+  </nav>
+
+  <div class="a1">
+    <h1>Welcome to my Online <br> Mobile store</h1>
+  </div>
+  <div class="a2">
+    <input type="text" name="n1" placeholder="Search">
+    <input type="button" value="submit">
+  </div>
+
+</body>
+</html>

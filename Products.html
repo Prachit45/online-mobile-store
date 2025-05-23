@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Product Card UI</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background: #f5f5f5;
+      margin: 2rem;
+    }
+
+    h1 {
+      text-align: center;
+      margin-bottom: 2rem;
+    }
+
+    .product-grid {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 20px;
+      justify-content: center;
+       padding-top: 30px;
+    }
+
+    .card {
+      background-color: #fff;
+      border-radius: 8px;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+      overflow: hidden;
+      width: 200px; /* fixed width for consistent layout */
+    }
+
+    .card img {
+      width: 100%;
+      height: auto;
+    }
+
+    .mob1 {
+      padding: 16px;
+    }
+
+    .mob1 h3 {
+      margin: 0 0 8px;
+      color: black;
+    }
+
+    .mob1 p {
+      color: #555;
+      margin: 0 0 12px;
+    }
+
+    .price {
+      font-weight: bold;
+      color: black;
+    }
+
+    h1{
+      border: solid 2px black;
+      padding: 10px;
+    }
+
+.card img {
+  width: 100%;
+  height: auto;
+  transition: transform 0.3s ease;
+  }
+
+.card:hover img {
+  transform: scale(1.05);
+}
+
+.footer {
+  background-color: #333;
+  color: #fff;
+  padding: 30px 20px 10px;
+  margin-top: 40px;
+  font-size: 14px;
+}
+
+.footer-content {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 30px;
+  max-width: 1200px;
+  margin: auto;
+}
+
+.footer-section {
+  flex: 1;
+  min-width: 200px;
+}
+
+.footer-section h3,
+.footer-section h4 {
+  color: #fff;
+  margin-bottom: 12px;
+}
+
+.footer-section ul {
+  list-style: none;
+  padding: 0;
+}
+
+.footer-section ul li a {
+  color: #ccc;
+  text-decoration: none;
+}
+
+.footer-section ul li a:hover {
+  text-decoration: underline;
+  color: #fff;
+}
+
+.footer-bottom {
+  text-align: center;
+  padding-top: 15px;
+  border-top: 1px solid #555;
+  margin-top: 20px;
+  color: #aaa;
+}
+  </style>
+</head>
+<body>
+
+  <h1>Our Products</h1>
+
+  <div class="product-grid">
+    <div class="card">
+      <img src="./Images/GalaxyA55.jpg" alt="Galaxy A55">
+      <div class="mob1">
+        <h3>Galaxy A55</h3>
+        <p>This Mobile phone is very attractive and its features are awesome</p>
+        <div class="price">25,300</div>
+      </div>
+    </div>
+
+    <div class="card">
+      <img src="./Images/Oneplus.jpg" alt="One plus">
+      <div class="mob1">
+        <h3>Oneplus mobile</h3>
+        <p>This Mobile phone is very attractive and its features are awesome</p>
+        <div class="price">₹20,000</div>
+      </div>
+    </div>
+
+    <div class="card">
+      <img src="./Images/Samsung.jpg" alt="Samsung Mobile">
+      <div class="mob1">
+        <h3>Samsung Mobile</h3>
+        <p>This Mobile phone is very attractive and its features are awesome</p>
+        <div class="price">₹18,000</div>
+      </div>
+    </div>
+
+    <div class="card">
+      <img src="./Images/iqoo23.jpg" alt="iqoo23">
+      <div class="mob1">
+        <h3>Iqz Mobile</h3>
+        <p>This Mobile phone is very attractive and its features are awesome</p>
+        <div class="price">₹15,200</div>
+      </div>
+    </div>
+
+    <div class="card">
+      <img src="./Images/realmeGT.jpg" alt="realmeGT">
+      <div class="mob1">
+        <h3>Realme newone</h3>
+        <p>This Mobile phone is very attractive and its features are awesome</p>
+        <div class="price">₹23,400</div>
+      </div>
+      </div>
+
+    <div class="card">
+      <img src="./Images/Redmi.jpg" alt="Redmi Smart">
+      <div class="mob1">
+        <h3>Redmi Smart</h3>
+        <p>This Mobile phone is very attractive and its features are awesome</p>
+        <div class="price">₹18,100</div>
+      </div>
+    </div>
+
+    <div class="card">
+      <img src="./Images/Apple iphone 15.jpg" alt="Apple iphone 15">
+      <div class="mob1">
+        <h3>Apple iphone 15</h3>
+        <p>This Mobile phone is very attractive and its features are awesome</p>
+        <div class="price">₹70,000</div>
+      </div>
+    </div>
+
+    <div class="card">
+      <img src="./Images/iphone 16pro max.jpg" alt="iphone 16pro max">
+      <div class="mob1">
+        <h3>iphone 16pro max</h3>
+        <p>This Mobile phone is very attractive and its features are awesome</p>
+        <div class="price">₹1,38,000</div>
+      </div>
+    </div>
+
+    <div class="card">
+      <img src="./Images/Samsung Galaxy S24.jpg" alt="Samsung Galaxy S24">
+      <div class="mob1">
+        <h3>Samsung Galaxy S24</h3>
+        <p>This Mobile phone is very attractive and its features are awesome</p>
+        <div class="price">₹1,35,000</div>
+      </div>
+    </div>
+
+    <div class="card">
+      <img src="./Images/iphone plus 16.jpg" alt="iphone plus 16">
+      <div class="mob1">
+        <h3>iphone plus 16</h3>
+        <p>This Mobile phone is very attractive and its features are awesome</p>
+        <div class="price">₹90,000</div>
+      </div>
+    </div>
+  </div>
+  <footer class="footer">
+  <div class="footer-content">
+    <div class="footer-section about">
+      <h3>MobileMart</h3>
+      <p>Your trusted store for the latest smartphones with unbeatable deals and top-notch service.</p>
+    </div>
+    <div class="footer-section links">
+      <h4>Quick Links</h4>
+      <ul>
+        <li><a href="Main.html">Home</a></li>
+        <li><a href="About.html">About Us</a></li>
+        <li><a href="Products.html">Products</a></li>
+        <li><a href="Contact.html">Contact</a></li>
+      </ul>
+    </div>
+    <div class="footer-section contact">
+      <h4>Contact Us</h4>
+      <p>Email: support@mobilemart.com</p>
+      <p>Phone: +91-9876543210</p>
+    </div>
+  </div>
+  <div class="footer-bottom">
+    &copy; 2025  Online Mobile Gallary. All rights reserved.
+  </div>
+</footer>
+
+
+</body>
+</html>
